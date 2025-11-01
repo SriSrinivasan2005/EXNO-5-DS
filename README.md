@@ -24,7 +24,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
-
+### Line Plot
 ```
 marks=[13,45,63,78]
 student=['ABC','QOR','EFB','TOB']
@@ -45,6 +45,7 @@ plt.show()
 ```
 <img width="912" height="716" alt="Screenshot 2025-10-28 113325" src="https://github.com/user-attachments/assets/10221c39-6c31-40d2-9819-611f21302801" />
 
+### Scatter Plot
 ```
 x=[10,20,30,40,50]
 y=[100,200,300,400,500]
@@ -66,7 +67,7 @@ plt.show()
 ```
 <img width="785" height="805" alt="Screenshot 2025-10-28 113354" src="https://github.com/user-attachments/assets/73cd5f99-d455-4b02-8d66-7c65aab035b2" />
 
-
+### Pie Chart
 ```
 act=['eat','sleep','work','play']
 slices=[3,7,8,6]
@@ -88,6 +89,7 @@ plt.show()
 ```
 <img width="1293" height="692" alt="Screenshot 2025-10-28 113429" src="https://github.com/user-attachments/assets/70b480c0-b847-4288-8706-ac85042bee7f" />
 
+### Area Chart
 ```
 x = [1, 2, 3, 4, 5]
 y1 = [10, 12, 14, 16, 18]
@@ -103,6 +105,7 @@ plt.show()
 
 <img width="824" height="795" alt="Screenshot 2025-10-28 113443" src="https://github.com/user-attachments/assets/69af385d-4e93-40c2-ac90-c0d51cbdd9b9" />
 
+### Bar Chart
 ```
 height = [10, 24, 36, 40, 5]
 names = ['one', 'two', 'three', 'four', 'five']
@@ -116,6 +119,7 @@ plt.show()
 ```
 <img width="829" height="805" alt="Screenshot 2025-10-28 113503" src="https://github.com/user-attachments/assets/6065edbc-e5f9-4c54-a533-fe3bacbeb75e" />
 
+### Histogram
 ```
 x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
 plt.hist(x, bins = 10, color='blue', alpha=0.5)
@@ -123,6 +127,7 @@ plt.show()
 ```
 <img width="837" height="631" alt="Screenshot 2025-10-28 113514" src="https://github.com/user-attachments/assets/cc8320bc-aca0-420b-9b67-d576e8c8ce94" />
 
+### Box Plot
 ```
 np.random.seed(0)
 data=np.random.normal(loc=0, scale=1, size=100)
